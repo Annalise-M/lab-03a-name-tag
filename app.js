@@ -9,10 +9,32 @@ myButton.addEventListener('click', () => {
 
     nameBox.textContent = userInput;
 
-    console.log(userInput);
+    // console.log(userInput);
 });
 
+const redButton = document.getElementById('roy-button');
 
+redButton.addEventListener('click', () => {
+    const colorChange = document.getElementById('tag');
+    colorChange.style.background = 'magenta';
+    
+});
+
+const greenButton = document.getElementById('g-button');
+
+greenButton.addEventListener('click', () => {
+    const colorChange = document.getElementById('tag');
+    colorChange.style.background = 'greenyellow';
+
+});
+
+const blueButton = document.getElementById('biv-button');
+
+blueButton.addEventListener('click', () => {
+    const colorChange = document.getElementById('tag');
+    colorChange.style.background = 'skyblue';
+
+});
 
 
 
